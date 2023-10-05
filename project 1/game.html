@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>game page</title>
+    <link rel="stylesheet"href="game.css">
+</head>
+    <body>
+    <div class="form-box">
+        <div class="form-box2">
+            <h1>GAMING</h1>
+             <h1>GAMING</h1>
+             <h1>GAMING</h1>
+             </div>
+        <div class="form-box3">
+            <div class="dual">
+              <h2>DUAL SENSE</h2>
+                <div class="color">
+                <h3>COLOR :</h3>
+                    <div class="red">
+                 </div>
+                      <div class="violet">
+                 </div>
+        <div class="blue">
+                 </div>
+        <div class="orange">
+            </div>
+             </div>
+                 <h4>$79.00</h4>
+             <p>Redgear Pro Wireless Gamepad with 2.4GHz Wireless Technology,<br>
+            Integrated Dual Intensity Motor,<br>
+                 Illuminated Keys for PC(Compatible with Windows 7/8/8.1/10 only).</p>
+        <button>BUY NOW</button></div>
+            </div>
+        <div class="logo">
+             <img src="joy.png">
+        </div>
+        </div>
+        <script>
+var box=document.querySelector(".violet");
+var box1=document.querySelector(".blue");
+var box2=document.querySelector(".orange");
+var box3=document.querySelector(".red");
+var logo=document.querySelector("img");
+console.log(logo);
+console.log(box);
+box.addEventListener("click",()=>{
+    logo.setAttribute("src","violet.png");
+});
+box1.addEventListener("click",()=>{
+    logo.setAttribute("src","blue.png");
+});
+box2.addEventListener("click",()=>{
+    logo.setAttribute("src","orange.png");
+});
+            box3.addEventListener("click",()=>{
+    logo.setAttribute("src","joy.png");
+});
+        </script>
+    </body>
+</html>
